@@ -28,7 +28,7 @@ este proyecto  se necesita install '**_PYTHON_**'
 ## DATABASE:
 - En este proyecto se utilizó db.sqlite3 como base de datos
    
-## modificaciones que se realizar en el archivo "settings.py":
+## modificaciones que se realizar en el archivo "settings.py||":
 - INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
