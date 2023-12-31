@@ -21,9 +21,31 @@ este proyecto  se necesita install '**_PYTHON_**'
   - Este comando se poner dentro de la carpeta "AppWebInicio"
 
 ## se a utilizado los comando de:
+- pip install crispy-bootstrap5
+- pip install django-crispy-forms
+## se a utilizado los comando de:
 - primero se ejecuta este comando "py manage.py migrate" para tener la tabla creadas y después "py manage.py makemigrations "
 ## DATABASE:
-- En este proyecto se utilizó MYSQL como base de datos y el nombre de la base de Datos "--unidb--"
-  
+- En este proyecto se utilizó db.sqlite3 como base de datos
+   
+## modificaciones que se realizar en el archivo "settings.py":
+- INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'app',
+    'crispy_forms',
+    'crispy_bootstrap5',
+]
+
+- CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+- CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+
 ## Para ejecutar este programa es con el
 - comando "python manage.py runserver "
+
